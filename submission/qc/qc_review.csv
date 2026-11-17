@@ -1,0 +1,8 @@
+image,object_id,error_type,reviewer,note
+img_003.jpg,,khong,claude,"vòng 2: box person trùng của người lái xe máy đỏ đã gộp còn 1; không thấy lỗi khác"
+img_005.jpg,,bo_sot,claude,"vòng 2: vẫn chưa có ignore_region cho cụm đầu người / xe máy nhỏ ở xa (y khoảng 215-300) theo guideline 4.1.6"
+img_008.jpg,,khong,claude,"vòng 2: đã thêm person người đàn ông đứng sau xe chở chuối; không thấy lỗi khác"
+img_014.jpg,,khong,claude,"vòng 2: đã xoá box motorbike trên tán cây và 2 box three_wheeler trên thúng gánh hàng; không thấy lỗi khác"
+img_017.jpg,,khong,claude,"vòng 2: #144 đã kéo sát cạnh trái, đã thêm #145 tuk-tuk mui bạc bên trái; không thấy lỗi khác"
+img_033.jpg,,bo_sot,claude,"vòng 2: sót person: người lái xe máy #400 (x khoảng 395-435, y 450-492)"
+img_033.jpg,,bo_sot,claude,"vòng 2: sót person: người ngồi sau trên xe máy #400 (#406 đã đổi sang bicycle và #407 cô gái đạp xe đã được thêm)"

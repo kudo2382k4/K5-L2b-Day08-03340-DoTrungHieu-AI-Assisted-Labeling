@@ -1,0 +1,13 @@
+image,object_id,error_type,reviewer,note
+img_003.jpg,2,thua,claude,"#2 person [89,200,157,310] trùng với #3 person [96,209,155,319]: cùng một người lái xe máy đỏ #12 (box manual chồng lên box máy)"
+img_005.jpg,,bo_sot,claude,"thiếu ignore_region cho cụm đầu người / xe máy ở xa (y khoảng 215-300, nhiều mũ bảo hiểm < 20 px không có box) theo guideline 4.1.6"
+img_008.jpg,,bo_sot,claude,"sót person: người đàn ông áo xanh đứng sau xe ba gác chở chuối (khoảng x 178-250, y 175-250), lộ rõ đầu và vai"
+img_014.jpg,135,thua,claude,"#135 motorbike nằm trên tán cây / nền trời góc trên phải, không có xe (bẫy extra lọt từ lần duyệt đầu)"
+img_014.jpg,131,thua,claude,"#131 three_wheeler là thúng bên trái của gánh hàng rong (quang gánh), không phải xe ba bánh"
+img_014.jpg,132,thua,claude,"#132 three_wheeler là thúng bên phải của gánh hàng rong, không phải xe"
+img_017.jpg,145,sai_vi_tri_kich_thuoc,claude,"#145 three_wheeler lỏng cạnh trái: box bắt đầu x=423 trong khi đuôi xe ở khoảng x=470, ăn sang tuk-tuk xanh phía sau"
+img_017.jpg,,bo_sot,claude,"sót three_wheeler: tuk-tuk mui bạc đỗ ngoài cùng bên trái (khoảng x 75-215, y 328-492), bị hai người đi bộ che một phần nhưng thấy rõ bánh và mui"
+img_033.jpg,405,sai_lop,claude,"#405 motorbike thực ra là xe đạp (bánh mảnh, người đang đạp) -> bicycle"
+img_033.jpg,,bo_sot,claude,"sót person: cô gái áo hồng đang đạp xe #405"
+img_033.jpg,,bo_sot,claude,"sót person: người lái xe máy #413 (x khoảng 395-435)"
+img_033.jpg,,bo_sot,claude,"sót person: người ngồi sau trên xe máy #413"
